@@ -1,0 +1,65 @@
+/* Why us */
+
+.food-menu{
+    margin-top: 120px;
+    
+}
+.food-menu__title{
+    background-color: #000000;
+    padding-left: 100px;
+    
+}
+.food-menu__cards{
+margin-top: 30px;
+text-align: center;
+}
+.food-menu__card{
+    display: inline-block;
+    width: 17%;
+    padding: 30px 20px 0px;
+    text-align: center;
+    margin: 0% 1%;
+    background-color: #FFFAF4;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.food-menu__card--title{
+    color: #E08E6D;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.food-menu__card--subtitle{
+    color: #E08E6D;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+.food-menu__card--text{
+    color: #484848;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+    height: 150px;
+}
+.food-menu__card:hover{
+    background-color: #D25380;
+}
+.food-menu__card:hover .food-menu__card--title,
+.food-menu__card:hover .food-menu__card--text{
+    color: #fff;
+}
+.food-menu__cards img{
+    width: 100%;
+    height: 150px;
+    object-fit: fill;
+    border-radius: 6px;
+}
+.drink img{
+    height: 200px;
+    object-fit: fill;
+}
+/* /Food menu */

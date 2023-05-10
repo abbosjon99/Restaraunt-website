@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Restaurant X - your favourite place on the Moon.</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/cantacts.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="img/favicon.png" type="image/png">
+    </head>
+    <body>
+        <!---Header---->
+    <div class="container">
+        <header class="main-header">
+        <div class="main-header__logo">
+            <a href="/index.html"><p class="logo-text">Restaurant</p><img src="img\favicon.png" alt="logo"></a>
+            
+        </div>
+        <nav class="main-navigation">
+            <ul class="main-navigation__items">
+                <li class="main-navigation__item">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li class="main-navigation__item">
+                    <a href="/menu.html">Menu</a>
+                </li>
+                <li class="main-navigation__item active">
+                    <a href="/contact.html">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+         </header>
+    </div>
+    <!---/Header---->
+<!----contacts-->
+<section class="contacts">
+    <h1 class="to-uppercase subtitle">Contact us</h1>
+    <div class="contacts-text">
+    <h2 class="contacts-text__title">Address:</h2>
+    <a href="https://www.google.com/moon/" class="contactes-text__text">59, Moon hotel, Apollo Crater, Moon</a>
+    <h2 class="contacts-text__title">Phone number:</h2>
+    <a href="tel:666-666-666" class="contactes-text__text">+666 666 666</a>
+    
+    </div>
+    <div class="contacts-reserve">
+
+        <div style="text-align: center;">
+            <form action="contact.php" method="GET">
+            <label  for="ism">Name: </label>
+            <input class="text-input" type="text" name="ism" id="ism">
+            <br>
+            <br>
+            <label for="email">Email: </label>
+            <input class="text-input" type="email" name="email" id="email">
+            <br>
+            <br>
+            <label for="date">Date:</label>
+            <input class="text-input" type="date" name="date" id="date">
+            <br>
+            <br>
+            <button type="submit" class="button to-uppercase">reserve</button>
+            <br>
+            </form>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</section>
+
+<!---/contacts-->
+<!---Footer---->
+<div class="container">
+    <footer class="main-footer">
+        <div class="footer-logo">
+            <div class="main-header__logo">
+                <a href="/index.html"><p class="logo-text">Restaurant</p><img src="img\favicon.png" alt="logo"></a>
+                
+            </div>
+        </div>
+        
+    <nav class="main-navigation">
+        <ul class="main-navigation__items footer-nav">
+            <li class="main-navigation__item">
+                <a href="/index.html">Home</a>
+            </li>
+            <li class="main-navigation__item">
+                <a href="/menu.html">Menu</a>
+            </li>
+            <li class="main-navigation__item">
+                <a href="/contact.html">Contact us</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="footer-section__social-networks">
+        <a href="https://youtu.be/dQw4w9WgXcQ" class="footer-section__social-networks--item">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com/abbosjon_99/" class="footer-section__social-networks--item">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://t.me/abbosjon99" class="footer-section__social-networks--item">
+            <i class="fa-brands fa-telegram"></i>
+        </a>
+        <a href="https://www.facebook.com/abbos.keldiyarov" class="footer-section__social-networks--item">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+    </div>
+    <div class="footer-section__copy">
+        <p class="footer-section__copy--text">
+            &copy; 2023 All rights reserved
+        </p>
+     </footer>
+</div>
+<!---/Footer---->
+    </body>
+</html>

@@ -1,0 +1,108 @@
+/* Core */
+.welcome{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #FFFAF4;
+    
+}
+
+
+
+
+
+
+
+
+/* /Core */
+/* Main */
+.main-section{
+    border-radius: 3px;
+    margin-top: 80px;
+    width: 100%;
+    float: left;
+    
+    background-image: url('../img/moon-city.jpg');
+    background-size: cover;
+}
+
+.main-section__info  {
+    padding: 150px 100px 100px;
+    
+    width: 100%;
+    float: left;
+    
+}
+
+/* /Main */
+
+/* food */
+.food-section{
+    border-radius: 3px;
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+    
+    background-image: url('../img/food.jpg');
+    background-size: cover;
+}
+
+
+
+.food-section__info  {
+    padding: 100px 50px 100px 20px;
+    
+    width: 30%;
+    float: right;
+    
+}
+
+
+/* /Food */
+
+/* Why us */
+.why-us{
+    padding: 0px 20px;
+}
+.why-us__title{
+    padding: 30px 100px;
+}
+
+.why-us__card{
+    display: inline-block;
+    width: 29%;
+    padding: 60px 30px 20px;
+    text-align: center;
+    margin: 0% 2%;
+    background-color: #FFFAF4;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.why-us__card--title{
+    color: #E08E6D;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.why-us__card--text{
+    color: #484848;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+}
+.why-us__card:hover{
+    background-color: #D25380;
+}
+.why-us__card:hover .why-us__card--title,
+.why-us__card:hover .why-us__card--text{
+    color: #fff;
+}
+.why-us__cards img{
+    width: 90%;
+    height: 250px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+/* /Why us */
